@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/button/button",
+    "pages/test/text",
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "sitemapLocation": "sitemap19.json"
 }
