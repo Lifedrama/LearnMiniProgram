@@ -1,0 +1,30 @@
+<!--1. image的基本使用 -->
+<!-- image组建可以写成单标签，也可以写成双标签 
+       image组件默认有自己的大小 320*240
+       image是一个行内块级元素-->
+
+<image/>
+<text>哈哈</text>
+
+<!-- 2.src:本地路径(相对路径、绝对路径)、远程地址 -->
+<image src="../../assets/test/1.png"/>
+<image src="/assets/test/1.png"/>
+<image src="http://hs.o2osdb.com/uploads/Agent_/5cf5e032a98aa.png"/>
+
+<!-- 相册中的图片 -->
+<button bindtap="handtup">选择图片</button>
+<image show-menu-by-longpress src="{{imagePath}}"/>
+
+<!-- 3. bindload:监听图片加载完成 
+      lazy-load:图片的懒加载-->
+<view>______________________________++</view>
+<image 
+wx:for="{{1}}"
+src="http://hs.o2osdb.com/uploads/Agent_/5cf5e032a98aa.png"
+bindload="handload"
+lazy-load/>
+
+<!-- 4.  show-menu-by-longpress：长按图片出现识别小程序码-->
+<image show-menu-by-longpress
+src="http://hs.o2osdb.com/uploads/Agent_/5cf5e032a98aa.png"
+/>

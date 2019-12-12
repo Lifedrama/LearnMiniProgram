@@ -1,0 +1,21 @@
+<!-- 1.水平滚动：scroll-x -->
+<scroll-view class="con1" scroll-x>
+<!-- view 块级元素 -->
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+
+
+<!-- 2.垂直滚动 :scrolly-y-->
+<scroll-view class="con2" scroll-y>
+<!-- view 块级元素 -->
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>
+
+<!-- 3.其他补充 -->
+<scroll-view class="con2" scroll-y
+                     bindscroll="handscroll">
+<!-- view 块级元素 -->
+  <view wx:for="{{10}}" class="item2">{{item}}</view>
+</scroll-view>
+
+

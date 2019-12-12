@@ -1,0 +1,103 @@
+<!-- 1.input基本使用 -->
+<input/>
+
+<!-- 2.value:input中默认值 -->
+<input value="di "/>
+
+<!-- 3.type:决定键盘类型（英文字母+其他符号/数字/身份证） -->
+<input type="number"/>
+<input type="idcard"/>
+
+<!-- 4.暗文 -->
+<input password/>
+
+<!-- 5.placehloder : 占位文字-->
+<input placeholder="请输入内容"/>
+
+
+<input confirm-type="search" type="text"/>
+
+<!-- 6.input：绑定事件 -->
+<input bindinput="handinput"
+            bindfocus="handfocus"
+            bindblur="handblur"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
